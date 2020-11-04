@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.head {
+    height: 48px;
+    background-color: black;
+    text-align: center;
+}
+
+.name_web {
+    color: #fff;
+    top: 25%;
+    position: relative;
+    font-size: 1.3em;
+}
+
+.blog_posts {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.posts {
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.post {
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 3px;
+    padding: 5px;
+    border: 1px rgb(177, 175, 175) solid;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 20%;
+    height: 13%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.image_post {
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.posts_div_name {
+    font-size: 0.9em;
+    padding-left: 1.5%;
+    padding-bottom: 7px;
+}
+
+hr {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+    .post {
+        min-width: 25%;
+        font-size: 0.5em;
+    }
+    .posts {
+        overflow: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
